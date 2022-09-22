@@ -1,7 +1,8 @@
 <template>
 
     <div>
-        <navigation></navigation>
+        <navigation/>
+        <mainScreen/>
     </div>
 
 </template>
@@ -10,11 +11,13 @@
 
 import buttons from './components/buttons.vue'
 import navigation from './components/nav.vue'
+import mainScreen from './components/main-screen.vue'
 
 export default{
     components: {
         buttons,
-        navigation
+        navigation,
+        mainScreen,
     },
 
 data(){
@@ -27,6 +30,7 @@ return{ }
 
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
 
 </style>

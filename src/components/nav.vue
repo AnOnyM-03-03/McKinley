@@ -32,9 +32,8 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-    $basic-color:#00486D;
     .up{
-        background-color:$basic-color ;
+        background-color:#00486D ;
         color: white;
         text-align: center;
         padding: 8px 0;
