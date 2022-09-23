@@ -52,6 +52,7 @@ return{ }
             margin-right: 112px;
 
             &__title{
+                font-family: 'DM Serif Text';
                 margin-top: 100px;
                 font-size: 55px;
                 margin-bottom: 25px;
