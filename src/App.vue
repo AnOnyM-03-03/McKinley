@@ -3,6 +3,7 @@
     <div>
         <navigation/>
         <mainScreen/>
+        <information/>
     </div>
 
 </template>
@@ -12,12 +13,14 @@
 import buttons from './components/buttons.vue'
 import navigation from './components/nav.vue'
 import mainScreen from './components/main-screen.vue'
+import information from './components/information.vue'
 
 export default{
     components: {
         buttons,
         navigation,
         mainScreen,
+        information,
     },
 
 data(){
