@@ -12,6 +12,7 @@ body {
     margin: 0; 
     background-color: #fff;
     font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
     color: #00486D;
     line-height: 1; 
     text-rendering: optimizeLegibility;
@@ -61,6 +62,7 @@ a {
 background-color: transparent;
 text-decoration: none;
 color: inherit;
+cursor: pointer;
 }
 
 button,
