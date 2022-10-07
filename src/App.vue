@@ -4,6 +4,7 @@
         <navigation/>
         <mainScreen/>
         <information/>
+        <helpers/>
     </div>
 
 </template>
@@ -14,6 +15,7 @@ import buttons from './components/buttons.vue'
 import navigation from './components/nav.vue'
 import mainScreen from './components/main-screen.vue'
 import information from './components/information.vue'
+import helpers from './components/helpers.vue'
 
 export default{
     components: {
@@ -21,6 +23,7 @@ export default{
         navigation,
         mainScreen,
         information,
+        helpers,
     },
 
 data(){
