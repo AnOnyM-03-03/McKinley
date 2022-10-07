@@ -12,10 +12,8 @@
                         <div class="card-logo">
                             <img src="../images/information-web.png" alt="website logo">
                         </div>
+                        <h3 class="card-title">Intellectual Property</h3>
                         <p class="card-text">
-                            <span>
-                                Intellectual Property
-                            </span> 
                             Intellectual Property law deals with laws to protect creators and owners of inventions, writing, music, designs and other works.
                         </p>
                         <a class="card-link">Learn More
@@ -27,10 +25,8 @@
                         <div class="card-logo">
                             <img src="../images/information-house.png" alt="website logo">
                         </div>
+                        <h3 class="card-title">Real Estate</h3>
                         <p class="card-text">
-                            <span>
-                                Real Estate
-                            </span> 
                             Real estate law is a branch of civil law that covers the right to possess, use, and enjoy land.
                         </p>
                         <a class="card-link">Learn More
@@ -42,10 +38,8 @@
                         <div class="card-logo">
                             <img src="../images/information-book.png" alt="website logo">
                         </div>
+                        <h3 class="card-title">Tax Law</h3>
                         <p class="card-text">
-                            <span>
-                                Tax Law
-                            </span> 
                             Tax law cover income, corporate, excise, luxury, estate and property taxes, to name a few.
                         </p>
                         <a class="card-link">Learn More
@@ -87,30 +81,36 @@
 
         .card{
             padding: 44px 30px;
+            display: flex;
+            flex-direction: column;
             border: 1px solid #E4ECF0;
             box-shadow: 0px 24px 24px rgba(0, 72, 109, 0.2);
             border-radius: 2px;
 
-            &-text{
+            &-logo{
+                height: 63px;
+            }
+           
+            &-title{
+                font-size: 22px;
                 margin-top: 40px;
+            }
+
+            &-text{
+                margin-top: 12px;
                 margin-bottom: 36px;
                 max-width: 328px;
                 font-size: 20px;
                 line-height: 35px;
 
-                span{
-                    margin-bottom: 12px;
-                    display: block;
-                    font-size: 22px;
-                    
-                }
-
             }
             &-link{
                 display: flex;
                 align-items: center;
+                margin-top: auto;
 
-                
+            }
+        }
 
                 .arrow{
                     position: relative;
@@ -154,10 +154,5 @@
 
                 
             }
-
-        }
-
-    }
-
 
 </style>
