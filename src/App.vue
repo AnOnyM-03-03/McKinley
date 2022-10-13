@@ -7,6 +7,7 @@
         <helpers/>
         <slider/>
         <articles/>
+        <consultation/>
     </div>
 
 </template>
@@ -20,6 +21,7 @@ import information from './components/information.vue'
 import helpers from './components/helpers.vue'
 import slider from './components/slider.vue'
 import articles from './components/articles.vue'
+import consultation from './components/consultation.vue'
 
 export default{
     components: {
@@ -30,6 +32,7 @@ export default{
         helpers,
         slider,
         articles,
+        consultation,
     },
 
 data(){
