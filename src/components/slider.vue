@@ -1,5 +1,4 @@
 <template>
-
 <div class="container">
     <div class="slider">
         <div class="slider-arrow">
@@ -39,10 +38,10 @@ return{ }
 <style lang="scss" scoped>
 
     .slider{
-        margin-top: 134px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 134px 0;
 
 
         &-comments{
@@ -63,13 +62,8 @@ return{ }
             cursor: pointer;
         }
         &-arrow__right{
-            transform: rotate(180deg);
-
-            img{
-            width: 68px;
-            height: 352px;
-            }
-            
+            transform: rotate(180deg) scale(13.8);
+            margin: 134px 0;
         }
     }
 
