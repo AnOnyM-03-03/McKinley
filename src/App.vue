@@ -6,6 +6,7 @@
         <information/>
         <helpers/>
         <slider/>
+        <articles/>
     </div>
 
 </template>
@@ -18,6 +19,7 @@ import mainScreen from './components/main-screen.vue'
 import information from './components/information.vue'
 import helpers from './components/helpers.vue'
 import slider from './components/slider.vue'
+import articles from './components/articles.vue'
 
 export default{
     components: {
@@ -27,6 +29,7 @@ export default{
         information,
         helpers,
         slider,
+        articles,
     },
 
 data(){
