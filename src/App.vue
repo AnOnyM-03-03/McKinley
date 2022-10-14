@@ -8,6 +8,7 @@
         <slider/>
         <articles/>
         <consultation/>
+        <footers/>
     </div>
 
 </template>
@@ -22,6 +23,7 @@ import helpers from './components/helpers.vue'
 import slider from './components/slider.vue'
 import articles from './components/articles.vue'
 import consultation from './components/consultation.vue'
+import footers from './components/footers.vue'
 
 export default{
     components: {
@@ -33,6 +35,7 @@ export default{
         slider,
         articles,
         consultation,
+        footers
     },
 
 data(){
