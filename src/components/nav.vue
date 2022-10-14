@@ -7,7 +7,7 @@
     <div class="container">
         <nav class="nav">
             <div class="nav-links">
-                <img src="../images/logo.png" alt="McKinley" class="logo">
+                <img src="../images/logo-header.svg" alt="McKinley" class="logo">
                 <ul class="links">
                     <li class="link">Services</li>   
                     <li class="link">About</li>   

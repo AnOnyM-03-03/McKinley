@@ -13,6 +13,7 @@
         font-size: 18px;
         background-color: $basic-color;
         color: white;
+        border-radius: 4px;
     }
 
 </style>
